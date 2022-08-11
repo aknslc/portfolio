@@ -1,0 +1,8 @@
+aside{
+    background-color: darkmagenta;
+    color: #fff;
+    position: fixed;
+    top: 50%;
+    left: 0;
+    display: inline;
+}
