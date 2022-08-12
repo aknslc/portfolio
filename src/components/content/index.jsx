@@ -1,11 +1,16 @@
 import React from 'react'
-import styles from './style.module.css'
+import './style.css'
 
 function PageContent() {
   return (
-    <div className="container">
-      <section>PageContent</section>
-    </div>
+   
+      <section className='container'>
+        <div className="section-content row ">
+          <div className="left col col-lg-6 text-start">I am a front end developer</div>
+          <div className="right col col-lg-6 text-center">3d bir seyler</div>
+        </div>
+      </section>
+ 
   )
 }
 

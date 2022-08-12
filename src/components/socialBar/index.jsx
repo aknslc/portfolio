@@ -1,8 +1,15 @@
 import React from 'react'
-import styles from './style.module.css'
+import  './style.css'
+import {AiFillGithub,AiFillLinkedin} from 'react-icons/ai'
+
 function SocialBar() {
   return (
-    <aside>SocialBar</aside>
+    <aside>
+      <div className="socialMediaIcons">
+        <AiFillGithub size={50} className='d-block my-2'/>
+        <AiFillLinkedin size={50} className='d-block my-2'/>
+      </div>
+    </aside>
   )
 }
 

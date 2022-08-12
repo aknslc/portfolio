@@ -25,7 +25,9 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	background-color: #1D1D1D !important;
+	background-color: #fff !important;
+	font-family: 'Roboto', sans-serif !important;
+	
 }
 ol, ul {
 	list-style: none;
@@ -43,7 +45,4 @@ table {
 	border-spacing: 0;
 }
 
-.container {
-    width: 1240px;
-    margin: 0 auto;
-}
+
