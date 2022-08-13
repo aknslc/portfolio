@@ -1,16 +1,25 @@
+
+
 .navbar {
     z-index: 10;
-    background-color: #00D8D6;
-    padding: 15px 0 !important;
+    background-color: #191918;
+    height: 100px !important;
 }
 
 .nav-item {
     margin-left: 15px;
-    font-size: 24px;
-    letter-spacing: 1px;
+
 }
 
-.logo{
-    font-size: 24px !important;
+.nav-item a{
+    margin-left: 15px;
+    color: #e96c6c !important;
+    letter-spacing: 2px;
+    font-size: 17px;
+}
+
+.logo img{
+    width: 80px;
     letter-spacing: 1px;
+
 }

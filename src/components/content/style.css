@@ -5,7 +5,9 @@ section{
 
 
 .section-content{
-    
+    height: 40vh;
+    display: flex;
+    align-items: center;
 }
 
 .section-content .left{
