@@ -13,3 +13,13 @@ section{
 .contact-left-content{
     padding-left: 10px;
 }
+
+.contact-left-content h1{
+    font-size: 110px;
+    font-weight: 800;
+    margin: 25px 0;
+}
+
+.contact-right-content{
+    height: 40vh;
+}
