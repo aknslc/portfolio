@@ -49,6 +49,8 @@ section{
     background-color: transparent;
     border: 2px solid var(--primary-color);
     margin-top: 50px;
+    display: inline-block;
+    text-decoration: none;
     box-shadow: 1px 1px 10px;
 }
 

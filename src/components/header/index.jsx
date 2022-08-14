@@ -8,7 +8,6 @@ import { Link, NavLink } from 'react-router-dom'
 function Header() {
   return (
     <header>
-
       <div className="headerInner">
         <nav className="navbar navbar-expand-lg px-4">
           <div className="container-fluid">
@@ -24,27 +23,27 @@ function Header() {
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item ">
                 <NavLink className="nav-link" aria-current="page" to='/'>
-                  .home()
+                  <span>h</span>ome
                 </NavLink>
               </li>
               <li className="nav-item ">
                 <NavLink className="nav-link" to='/aboutme'>
-                  .about()
+                  <span>a</span>bout
                 </NavLink>
               </li>
               <li className="nav-item  dropdown">
                 <NavLink className="nav-link" to='/skills'>
-                  .skills()
+                <span>s</span>kills
                 </NavLink>
               </li>
               <li className="nav-item ">
                 <NavLink className="nav-link" to='/projects'>
-                  .projects()
+                <span>p</span>rojects
                 </NavLink>
               </li>
               <li className="nav-item ">
                 <NavLink className="nav-link" to='/contact'>
-                  .contact()
+                <span>c</span>ontact
                 </NavLink>
               </li>
             </ul>
@@ -54,5 +53,4 @@ function Header() {
     </header>
   )
 }
-
 export default Header

@@ -13,3 +13,52 @@ section{
 .projects-left-content{
     padding-left: 10px;
 }
+
+
+.projects-left-content h1{
+    font-size: 90px;
+    font-weight: 800;
+    margin: 25px 0;
+}
+
+
+.projects-left-content span{
+    opacity: .5;
+    font-style: italic;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+
+.project img{
+    width: 100%;
+    opacity: .7;
+}
+
+
+.project{
+    position: relative;
+    margin-bottom: 25px;
+    
+}
+
+.project:hover .view-project {
+    visibility: visible;
+}
+
+.project:hover {
+    cursor: pointer;
+}
+
+.project:hover img {
+    opacity: .1;
+    transition: all .5s;
+}
+.view-project{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    color: #fff;
+    visibility: hidden;
+    
+}

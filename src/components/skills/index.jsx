@@ -6,20 +6,43 @@ function Skills() {
             <div className="skills-section-content row ">
                 <div className="skills-left-content col col-lg-6">
                     <span>{'<h1>'}</span>
-                    <h1>
-                        Skills
+                    <h1 style={{ letterSpacing: "4px" }}>
+                        <span style={{ color: "#08FDD8" }}>S</span>kills
                     </h1>
                     <span>{'</h1>'}</span>
-
-                    <br />
-                    <span>{'<p>'}</span>
-
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam adipisci in officia corrupti sed, quia cum optio laboriosam. Obcaecati corporis asperiores minus blanditiis incidunt, quis vitae aliquid perferendis quae, quos, tempora
-                    </p>
-                    <span>{'</p>'}</span>
                 </div>
-                <div className="skills-right-content col col-lg-6">3d bir seyler</div>
+                <div className="skills-right-content col col-lg-6">
+                    <span>React JS</span>
+                    <div className="skill">
+                        <p className='skillsExperience react'>
+                        </p>
+                    </div>
+                    <span>Javascript</span>
+                    <div className="skill">
+                        <p className='skillsExperience javascript'>
+                        </p>
+                    </div>
+                    <span>Html5</span>
+                    <div className="skill">
+                        <p className='skillsExperience html'>
+                        </p>
+                    </div>
+                    <span>Css3</span>
+                    <div className="skill">
+                        <p className='skillsExperience css'>
+                        </p>
+                    </div>
+                    <span>Bootstrap 5</span>
+                    <div className="skill">
+                        <p className='skillsExperience bootstrap'>
+                        </p>
+                    </div>
+                    <span>Tailwind Css</span>
+                    <div className="skill">
+                        <p className='skillsExperience tailwind'>
+                        </p>
+                    </div>
+                </div>
             </div>
         </section>
     )

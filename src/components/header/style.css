@@ -16,6 +16,11 @@
     font-size: 19px;
 }
 
+.nav-item span{
+    font-style: italic;
+    color: var(--secondary-color);
+}
+
 .nav-item a:hover{
     color: var(--secondary-color);
 }
