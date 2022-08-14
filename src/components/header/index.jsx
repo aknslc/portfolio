@@ -3,7 +3,7 @@ import './style.css'
 import logo from '../../assets/img/logo.png'
 
 // router 
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
 function Header() {
   return (
@@ -23,29 +23,29 @@ function Header() {
           <div className="collapse navbar-collapse " id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item ">
-                <Link className="nav-link text-light" aria-current="page" to='/'>
+                <NavLink className="nav-link" aria-current="page" to='/'>
                   .home()
-                </Link>
+                </NavLink>
               </li>
               <li className="nav-item ">
-                <Link className="nav-link text-light" to='/aboutme'>
+                <NavLink className="nav-link" to='/aboutme'>
                   .about()
-                </Link>
+                </NavLink>
               </li>
               <li className="nav-item  dropdown">
-                <Link className="nav-link text-light" to='/skills'>
+                <NavLink className="nav-link" to='/skills'>
                   .skills()
-                </Link>
+                </NavLink>
               </li>
               <li className="nav-item ">
-                <Link className="nav-link text-light" to='/projects'>
+                <NavLink className="nav-link" to='/projects'>
                   .projects()
-                </Link>
+                </NavLink>
               </li>
               <li className="nav-item ">
-                <Link className="nav-link text-light" to='/contact'>
+                <NavLink className="nav-link" to='/contact'>
                   .contact()
-                </Link>
+                </NavLink>
               </li>
             </ul>
           </div>

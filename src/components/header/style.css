@@ -1,7 +1,5 @@
 
-
 .navbar {
-    z-index: 10;
     background-color: #191918;
     height: 100px !important;
 }
@@ -13,13 +11,22 @@
 
 .nav-item a{
     margin-left: 15px;
-    color: #e96c6c !important;
+    color: #e96c6c;
     letter-spacing: 2px;
-    font-size: 17px;
+    font-size: 19px;
+}
+
+.nav-item a:hover{
+    color: var(--secondary-color);
 }
 
 .logo img{
     width: 80px;
     letter-spacing: 1px;
 
+}
+
+
+.active{
+    color: var(--secondary-color) !important;
 }

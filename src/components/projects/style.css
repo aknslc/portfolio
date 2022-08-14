@@ -1,0 +1,15 @@
+section{
+    color: #ddd;
+    margin: 40px 0;
+}
+
+.projects-section-content{
+    height: 40vh;
+    display: flex;
+    align-items: center;
+
+    
+}
+.projects-left-content{
+    padding-left: 10px;
+}

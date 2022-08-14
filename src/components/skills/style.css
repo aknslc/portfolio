@@ -1,0 +1,28 @@
+section{
+    color: #ddd;
+    margin: 40px 0;
+}
+
+.skills-section-content{
+    height: 40vh;
+    display: flex;
+    align-items: center;
+
+    
+}
+.skills-left-content{
+    padding-left: 10px;
+}
+
+.skills-left-content h1{
+    font-size: 110px;
+    font-weight: 800;
+    margin: 25px 0;
+}
+
+.skills-left-content span{
+    opacity: .5;
+    font-style: italic;
+    display: inline-block;
+    margin: 10px 0;
+}

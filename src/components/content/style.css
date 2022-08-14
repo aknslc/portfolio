@@ -8,12 +8,53 @@ section{
     height: 40vh;
     display: flex;
     align-items: center;
+
+    
 }
-
 .section-content .left{
-
+    padding-left: 10px;
 }
 
 .section-content .right{
-
+    height: 50vh;
 }
+
+
+.greeting h1{
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-top: 50px;
+    opacity: .8;
+}
+
+.greeting h2{
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    opacity: .8;
+}
+
+.greeting p{
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    opacity: .8;
+}
+
+.contactBtn{
+    padding: 10px 20px;
+    letter-spacing: 3px;
+    color: var(--primary-color);
+    background-color: transparent;
+    border: 2px solid var(--primary-color);
+    margin-top: 50px;
+    box-shadow: 1px 1px 10px;
+}
+
+.contactBtn:hover{
+    color: #fff;
+    transition: all .7s;
+}
+
+
