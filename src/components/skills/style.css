@@ -16,8 +16,8 @@ section{
 }
 
 .skills-left-content h1{
-    font-size: 110px;
-    font-weight: 800;
+    font-size: 100px;
+    font-weight: 700;
     margin: 25px 0;
 }
 
@@ -70,4 +70,39 @@ section{
     font-size: 24px;
     font-weight: 800;
     letter-spacing: 3px;
+}
+
+
+
+
+@media screen and (max-width:767.90px) {
+
+    .skills-left-content h1{
+        font-size: 65px;
+    }
+
+    .skills-left-content span{
+        margin: 0;
+    }
+
+    .skills-right-content span {
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width:289.90px) {
+
+    .skills-left-content h1{
+        font-size: 45px;
+    }
+
+    .skills-left-content span{
+        margin: 0;
+    }
+
+    .skills-right-content span {
+        font-size: 12px;
+    }
+
 }

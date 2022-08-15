@@ -26,12 +26,13 @@ section{
 }
 
 .about-left-content p{
+    font-size: 17px;
     margin: 30px 0;
     letter-spacing: 1px;
 }
 
 .about-left-content p .links{
-    text-decoration: none;
+    text-decoration: underline;
     color: var(--secondary-color);
     font-size: 24px;
     font-weight: 600;
@@ -50,3 +51,36 @@ section{
 
 
 
+
+
+@media screen and (max-width:767.90px) {
+
+
+    .about-left-content h1 {
+        font-size: 40px;
+    }
+
+    .about-left-content p {
+        font-size: 16px;
+    }
+
+    .about-left-content h3 {
+        font-size: 40px;
+    }
+
+}
+
+@media screen and (max-width:289.90px) {
+
+    .about-left-content h1 {
+        font-size: 20px;
+    }
+
+    .about-left-content p {
+        font-size: 12px;
+    }
+
+    .about-left-content h3 {
+        font-size: 20px;
+    }
+}

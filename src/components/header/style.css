@@ -1,7 +1,6 @@
 
 .navbar {
     background-color: #191918;
-    height: 100px !important;
 }
 
 .nav-item {
@@ -35,3 +34,4 @@
 .active{
     color: var(--secondary-color) !important;
 }
+

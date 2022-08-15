@@ -21,5 +21,38 @@ section{
 }
 
 .contact-right-content{
-    height: 40vh;
+    height: 60vh;
+}
+
+
+@media screen and (max-width:767.90px) {
+
+    .contact-left-content h1{
+        font-size: 65px;
+    }
+
+    .contact-left-content span{
+        margin: 0;
+    }
+
+    .contact-left-content {
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width:289.90px) {
+
+    .skills-left-content h1{
+        font-size: 45px;
+    }
+
+    .skills-left-content span{
+        margin: 0;
+    }
+
+    .skills-right-content span {
+        font-size: 12px;
+    }
+
 }

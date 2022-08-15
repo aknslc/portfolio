@@ -1,26 +1,27 @@
-section{
+section {
     color: #ddd;
     margin: 40px 0;
 }
 
 
-.section-content{
+.section-content {
     height: 40vh;
     display: flex;
     align-items: center;
 
-    
+
 }
-.section-content .left{
+
+.section-content .left {
     padding-left: 10px;
 }
 
-.section-content .right{
+.section-content .right {
     height: 50vh;
 }
 
 
-.greeting h1{
+.greeting h1 {
     font-size: 60px;
     font-weight: 700;
     letter-spacing: 3px;
@@ -28,21 +29,21 @@ section{
     opacity: .8;
 }
 
-.greeting h2{
+.greeting h2 {
     font-size: 50px;
     font-weight: 700;
     letter-spacing: 5px;
     opacity: .8;
 }
 
-.greeting p{
+.greeting p {
     font-size: 60px;
     font-weight: 700;
     letter-spacing: 5px;
     opacity: .8;
 }
 
-.contactBtn{
+.contactBtn {
     padding: 10px 20px;
     letter-spacing: 3px;
     color: var(--primary-color);
@@ -54,9 +55,44 @@ section{
     box-shadow: 1px 1px 10px;
 }
 
-.contactBtn:hover{
+.contactBtn:hover {
     color: #fff;
     transition: all .7s;
 }
 
 
+
+@media screen and (max-width:767.90px) {
+
+    section span{
+        margin: 20px 0;
+    }
+
+    .left h1 {
+        font-size: 30px;
+    }
+
+    .left p {
+        font-size: 30px;
+    }
+
+    .left h2 {
+        font-size: 30px;
+    }
+
+}
+
+@media screen and (max-width:289.90px) {
+
+    .left h1 {
+        font-size: 20px;
+    }
+
+    .left p {
+        font-size: 20px;
+    }
+
+    .left h2 {
+        font-size: 20px;
+    }
+}

@@ -1,6 +1,6 @@
 import { Canvas } from '@react-three/fiber'
 import React, { Suspense } from 'react'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import './style.css'
 import { OrbitControls } from '@react-three/drei'
 import { Head } from '../3DObjects/Head'
@@ -16,10 +16,10 @@ function About() {
                         </h1>
                         <span>{'</h1>'}</span>
 
-                        
+
 
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam adipisci in officia corrupti sed, quia cum optio laboriosam. Obcaecati corporis asperiores minus blanditiis incidunt, quis vitae aliquid perferendis quae, quos, tempora
+                            I'm Akın, a passionate freelancer bringing you programming and design from the future. I am experienced in developing web including full front-end design.
                         </p>
 
                         <h3>Experience</h3>
