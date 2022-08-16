@@ -1,5 +1,5 @@
 import React from 'react'
-import './style.css'
+import '../../stytles/header/header.css'
 import logo from '../../assets/img/logo.png'
 import {AiOutlineMenu} from 'react-icons/ai'
 // router 
@@ -11,7 +11,6 @@ function Header() {
       <div className="headerInner">
         <nav className="navbar navbar-expand-lg px-4">
           <div className="container-fluid">
-
             <Link className="navbar-brand text-light logo" to='/'>
               <img src={logo} alt="logo" />
             </Link>

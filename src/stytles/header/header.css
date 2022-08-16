@@ -1,0 +1,37 @@
+header {
+  width: 100%;
+}
+
+.navbar {
+  background-color: #191918;
+}
+
+.navbar .nav-item {
+  margin-left: 15px;
+}
+
+.navbar .nav-item a {
+  margin-left: 15px;
+  color: #e96c6c;
+  letter-spacing: 2px;
+  font-size: 19px;
+}
+
+.navbar .nav-item a:hover {
+  color: var(--secondary-color);
+}
+
+.navbar .nav-item span {
+  font-style: italic;
+  color: var(--secondary-color);
+}
+
+.logo img {
+  width: 80px;
+  letter-spacing: 1px;
+}
+
+.active {
+  color: var(--secondary-color) !important;
+}
+/*# sourceMappingURL=header.css.map */

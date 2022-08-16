@@ -1,6 +1,6 @@
 import React from 'react'
 import ContactUs from '../form'
-import './style.css'
+import '../../stytles/contact/contact.css'
 import { Canvas } from '@react-three/fiber'
 import { Suspense } from 'react'
 import { OrbitControls } from '@react-three/drei'
@@ -10,7 +10,7 @@ function Contact() {
     return (
         <section className='container'>
             <div className="contact-section-content row ">
-                <div className="contact-left-content col col-lg-6">
+                <div className="contact-left-content  col-lg-6">
                     <span>{'<h1>'}</span>
                     <h1 style={{ letterSpacing: "4px" }}>
                         <span style={{ color: "#08FDD8" }}>C</span>ontact
@@ -18,7 +18,7 @@ function Contact() {
                     <span>{'</h1>'}</span>
                     <ContactUs />
                 </div>
-                <div className="contact-right-content col col-lg-6">
+                <div className="contact-right-content col-lg-6">
                     <Canvas>
                         <OrbitControls enableZoom={false} autoRotate={true} autoRotateSpeed={3} />
                         <ambientLight intensity={.5} />

@@ -1,0 +1,45 @@
+header {
+    width: 100%;
+}
+
+.navbar {
+    background-color: #191918;
+
+
+    .nav-item {
+        margin-left: 15px;
+
+
+        a {
+            margin-left: 15px;
+            color: #e96c6c;
+            letter-spacing: 2px;
+            font-size: 19px;
+
+
+            &:hover {
+                color: var(--secondary-color);
+            }
+        }
+
+        span {
+            font-style: italic;
+            color: var(--secondary-color);
+        }
+
+
+    }
+}
+
+.logo {
+
+    img {
+        width: 80px;
+        letter-spacing: 1px;
+    }
+
+}
+
+.active{
+    color: var(--secondary-color) !important;
+}

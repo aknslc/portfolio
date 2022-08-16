@@ -1,28 +1,33 @@
-section{
+section {
     color: #ddd;
     margin: 40px 0;
 }
 
-.contact-section-content{
+.contact-section-content {
     height: 40vh;
     display: flex;
     align-items: center;
 
-    
-}
-.contact-left-content{
-    padding-left: 10px;
+
+
+    .contact-left-content {
+        padding-left: 10px;
+
+        h1 {
+            font-size: 110px;
+            font-weight: 800;
+            margin: 25px 0;
+        }
+    }
+
+
+    .contact-right-content{
+        height: 60vh;
+    }
+
 }
 
-.contact-left-content h1{
-    font-size: 110px;
-    font-weight: 800;
-    margin: 25px 0;
-}
 
-.contact-right-content{
-    height: 60vh;
-}
 
 
 @media screen and (max-width:767.90px) {

@@ -1,0 +1,91 @@
+section {
+  color: #ddd;
+  margin: 40px 0;
+}
+
+.section-content {
+  height: 40vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section-content .left {
+  padding-left: 10px;
+}
+
+.section-content .right {
+  height: 40vh;
+}
+
+.greeting h1 {
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  margin-top: 50px;
+  opacity: .8;
+}
+
+.greeting h2 {
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: 5px;
+  opacity: .8;
+}
+
+.greeting p {
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: 5px;
+  opacity: .8;
+}
+
+.contactBtn {
+  padding: 10px 20px;
+  letter-spacing: 3px;
+  color: var(--primary-color);
+  background-color: transparent;
+  border: 2px solid var(--primary-color);
+  margin-top: 50px;
+  display: inline-block;
+  text-decoration: none;
+  -webkit-box-shadow: 1px 1px 10px;
+          box-shadow: 1px 1px 10px;
+}
+
+.contactBtn:hover {
+  color: #fff;
+  -webkit-transition: all .7s;
+  transition: all .7s;
+}
+
+@media screen and (max-width: 767.9px) {
+  section span {
+    margin: 20px 0;
+  }
+  .left h1 {
+    font-size: 30px;
+  }
+  .left p {
+    font-size: 30px;
+  }
+  .left h2 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 289.9px) {
+  .left h1 {
+    font-size: 20px;
+  }
+  .left p {
+    font-size: 20px;
+  }
+  .left h2 {
+    font-size: 20px;
+  }
+}
+/*# sourceMappingURL=pageContent.css.map */

@@ -1,5 +1,5 @@
 import React from 'react'
-import './style.css'
+import '../../stytles/skills/skills.css'
 function Skills() {
     return (
         <section className='container'>

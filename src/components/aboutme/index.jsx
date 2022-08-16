@@ -1,7 +1,7 @@
 import { Canvas } from '@react-three/fiber'
 import React, { Suspense } from 'react'
 import { Link } from 'react-router-dom'
-import './style.css'
+import '../../stytles/about/about.css'
 import { OrbitControls } from '@react-three/drei'
 import { Head } from '../3DObjects/Head'
 function About() {
@@ -9,14 +9,12 @@ function About() {
         <>
             <section className='container'>
                 <div className="about-section-content row ">
-                    <div className="about-left-content col col-lg-6">
+                    <div className="about-left-content col-lg-6">
                         <span>{'<h1>'}</span>
                         <h1>
                             About <span style={{ color: "#08FDD8" }}>Me</span>
                         </h1>
                         <span>{'</h1>'}</span>
-
-
 
                         <p>
                             I'm Akın, a passionate freelancer bringing you programming and design from the future. I am experienced in developing web including full front-end design.
@@ -28,7 +26,7 @@ function About() {
                         </p>
 
                     </div>
-                    <div className="about-right-content col col-lg-6">
+                    <div className="about-right-content col-lg-6">
                         <Canvas>
                             <OrbitControls enableZoom={false} autoRotate={true} autoRotateSpeed={3} />
                             <ambientLight intensity={.5} />

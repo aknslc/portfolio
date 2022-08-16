@@ -1,6 +1,6 @@
 import { Canvas } from '@react-three/fiber'
 import React, { Suspense } from 'react'
-import './style.css'
+import '../../stytles/content/pageContent.css'
 
 import { OrbitControls } from '@react-three/drei'
 import { Computer } from '../3DObjects/Computer'

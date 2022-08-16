@@ -1,5 +1,5 @@
 import React from 'react'
-import './style.css'
+import '../../stytles/socialBar/socialBar.css'
 import { AiFillGithub, AiFillLinkedin, AiOutlineInstagram } from 'react-icons/ai'
 
 

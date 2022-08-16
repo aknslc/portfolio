@@ -1,0 +1,46 @@
+.socialMediaIcons {
+  position: fixed;
+  top: 40%;
+  left: 5px;
+  display: inline;
+}
+
+.socialMediaIcons .icons {
+  color: #808080;
+  font-size: 50px !important;
+}
+
+.socialMediaIcons .icons:hover {
+  color: #e96c6c;
+  cursor: pointer;
+  -webkit-transition: all .7s;
+  transition: all .7s;
+}
+
+@media screen and (max-width: 767.9px) {
+  .socialMediaIcons {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 15%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .icons {
+    font-size: 24px !important;
+    margin-left: 5px;
+    color: var(--primary-color);
+  }
+}
+
+@media screen and (max-width: 289.9px) {
+  .icons {
+    font-size: 12px !important;
+    margin-left: 5px;
+    color: var(--primary-color);
+  }
+}
+/*# sourceMappingURL=socialBar.css.map */

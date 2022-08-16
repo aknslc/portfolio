@@ -1,21 +1,21 @@
-
 .socialMediaIcons{
     position: fixed;
     top: 40%;
     left: 5px;
     display: inline;
-}
 
 
-.icons{
-    color: #808080;
-    font-size: 50px !important;
-}
+    .icons{
+        color: #808080;
+        font-size: 50px !important;
 
-.icons:hover{
-    color: #e96c6c;
+
+        &:hover{
+            color: #e96c6c;
     cursor: pointer;
     transition: all .7s;
+        }
+    }
 }
 
 
