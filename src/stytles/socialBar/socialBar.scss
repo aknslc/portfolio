@@ -1,19 +1,19 @@
-.socialMediaIcons{
+.socialMediaIcons {
     position: fixed;
     top: 40%;
     left: 5px;
     display: inline;
 
 
-    .icons{
+    .icons {
         color: #808080;
         font-size: 50px !important;
 
 
-        &:hover{
+        &:hover {
             color: #e96c6c;
-    cursor: pointer;
-    transition: all .7s;
+            cursor: pointer;
+            transition: all .7s;
         }
     }
 }
@@ -21,29 +21,28 @@
 
 @media screen and (max-width:767.90px) {
 
-    .socialMediaIcons{
+    .socialMediaIcons {
         position: sticky;
         top: 15%;
         display: flex;
         justify-content: flex-end;
-    }
 
-    .icons{
-        font-size: 24px !important;
-        margin-left: 5px;
-        color: var(--primary-color);
+        .icons {
+            font-size: 24px !important;
+            margin-left: 5px;
+            color: var(--primary-color);
 
+        }
     }
 
 }
 
 @media screen and (max-width:289.90px) {
-    
-    .icons{
+
+    .icons {
         font-size: 12px !important;
         margin-left: 5px;
         color: var(--primary-color);
-
     }
-    
+
 }

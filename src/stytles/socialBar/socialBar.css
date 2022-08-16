@@ -29,7 +29,7 @@
         -ms-flex-pack: end;
             justify-content: flex-end;
   }
-  .icons {
+  .socialMediaIcons .icons {
     font-size: 24px !important;
     margin-left: 5px;
     color: var(--primary-color);
