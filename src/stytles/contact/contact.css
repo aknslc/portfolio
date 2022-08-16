@@ -23,6 +23,11 @@ section {
   margin: 25px 0;
 }
 
+.contact-section-content .contact-left-content span {
+  opacity: .5;
+  font-style: italic;
+}
+
 .contact-section-content .contact-right-content {
   height: 60vh;
 }
