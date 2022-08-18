@@ -11,19 +11,13 @@ function SkillsPage() {
     setTimeout(() => {
       setLoading(false);
     }, 2500);
-
   }, [])
   return (
     <>
-      {loading ? <Loader /> :
-        (
-          <>
-            <Header />
-            <SocialBar />
-            <Skills />
-          </>
-        )
-      }
+      {loading && <Loader />}
+      <Header />
+      <SocialBar />
+      <Skills />
     </>
   )
 }

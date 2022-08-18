@@ -15,15 +15,10 @@ function ProjectsPage() {
   }, [])
   return (
     <>
-      {loading ? <Loader /> :
-        (
-          <>
-            <Header />
-            <SocialBar />
-            <Projects />
-          </>
-        )
-      }
+      {loading && <Loader />}
+      <Header />
+      <SocialBar />
+      <Projects />
     </>
   )
 }

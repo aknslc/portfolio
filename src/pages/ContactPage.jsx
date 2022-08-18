@@ -17,15 +17,10 @@ function ContactPage() {
   }, [])
   return (
     <>
-      {loading ? <Loader /> :
-        (
-          <>
-            <Header />
-            <SocialBar />
-            <Contact />
-          </>
-        )
-      }
+      {loading && <Loader />}
+      <Header />
+      <SocialBar />
+      <Contact />
     </>
   )
 }

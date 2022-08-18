@@ -7,25 +7,17 @@ import Loader from '../components/loader'
 
 function AboutPage() {
   const [loading, setLoading] = useState(true);
-
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
     }, 2500);
-
   }, [])
   return (
     <>
-      {loading ? <Loader /> :
-        (
-          <>
-            <Header />
-            <SocialBar />
-            <About />
-          </>
-        )
-
-      }
+      {loading && <Loader />}
+      <Header />
+      <SocialBar />
+      <About />
     </>
   )
 }

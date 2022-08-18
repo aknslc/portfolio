@@ -18,17 +18,10 @@ function Home() {
 
   return (
     <>
-      {loading ? <Loader /> :
-        (
-          <>
-            <Header />
-            <SocialBar />
-            <PageContent />
-          </>
-        )
-
-      }
-
+      {loading && <Loader />}
+      <Header />
+      <SocialBar />
+      <PageContent />
     </>
   )
 }
