@@ -49,6 +49,11 @@ section {
   height: 3px;
 }
 
+.skills-section-content .skills-right-content .skill .node {
+  width: 55%;
+  background-color: var(--secondary-color);
+}
+
 .skills-section-content .skills-right-content .skill .react {
   width: 65%;
   background-color: var(--primary-color);

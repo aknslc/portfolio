@@ -19,6 +19,7 @@ function Home() {
   return (
     <>
       {loading && <Loader />}
+
       <Header />
       <SocialBar />
       <PageContent />

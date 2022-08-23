@@ -12,6 +12,11 @@ function Skills() {
                     <span>{'</h1>'}</span>
                 </div>
                 <div className="skills-right-content col-lg-6 col-md-12">
+                    <span>Node JS</span>
+                    <div className="skill">
+                        <p className='skillsExperience node'>
+                        </p>
+                    </div>
                     <span>React JS</span>
                     <div className="skill">
                         <p className='skillsExperience react'>
