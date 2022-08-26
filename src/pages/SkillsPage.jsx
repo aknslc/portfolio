@@ -14,10 +14,13 @@ function SkillsPage() {
   }, [])
   return (
     <>
-      {loading && <Loader />}
-      <Header />
-      <SocialBar />
-      <Skills />
+        {loading ? <Loader /> : (
+        <>
+          <Header />
+          <SocialBar />
+          <Skills />
+        </>
+      )}
     </>
   )
 }

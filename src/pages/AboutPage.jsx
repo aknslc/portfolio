@@ -1,4 +1,4 @@
-import {useEffect, useState} from 'react'
+import { useEffect, useState } from 'react'
 // components
 import Header from '../components/header'
 import SocialBar from '../components/socialBar'
@@ -14,10 +14,13 @@ function AboutPage() {
   }, [])
   return (
     <>
-      {loading && <Loader />}
-      <Header />
-      <SocialBar />
-      <About />
+      {loading ? <Loader /> : (
+        <>
+          <Header />
+          <SocialBar />
+          <About />
+        </>
+      )}
     </>
   )
 }

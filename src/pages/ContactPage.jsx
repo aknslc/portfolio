@@ -1,4 +1,4 @@
-import {useEffect, useState} from 'react'
+import { useEffect, useState } from 'react'
 
 // components
 import Header from '../components/header'
@@ -17,10 +17,13 @@ function ContactPage() {
   }, [])
   return (
     <>
-      {loading && <Loader />}
-      <Header />
-      <SocialBar />
-      <Contact />
+      {loading ? <Loader /> : (
+        <>
+          <Header />
+          <SocialBar />
+          <Contact />
+        </>
+      )}
     </>
   )
 }

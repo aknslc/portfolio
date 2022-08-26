@@ -11,11 +11,11 @@ function PageContent() {
   return (
 
     <section className='container'>
-      
+
       <div className="section-content row ">
         <div className="left col col-lg-6 col-md-12 col-sm-12">
           <div className="greeting">
-          <span style={{ opacity: ".5", fontSize: "16px", letterSpacing: "1px", fontStyle: "italic", display: "block" }}>{"<h1>"}</span>
+            <span style={{ opacity: ".5", fontSize: "16px", letterSpacing: "1px", fontStyle: "italic", display: "block" }}>{"<h1>"}</span>
             <h1>Hi,</h1>
             <p>I'm <span style={{ fontSize: "70px", textShadow: "1px 7px 4px #e96c6c" }}>A</span>kın,</p>
             <h2>Front End Developer</h2>
