@@ -15,7 +15,6 @@ function About() {
                             About <span style={{ color: "#08FDD8" }}>Me</span>
                         </h1>
                         <span>{'</h1>'}</span>
-
                         <p>
                             I'm Akın, a passionate freelancer bringing you programming and design from the future. I am experienced in developing web including full front-end design.
                         </p>
