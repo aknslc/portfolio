@@ -1,11 +1,9 @@
 // main components
-import Header from '../components/header'
-import SocialBar from '../components/socialBar'
-import PageContent from '../components/content'
-import Loader from '../components/loader'
+import Header from '../components/Header'
+import SocialBar from '../components/SocialBar'
+import PageContent from '../components/Content'
+import Loader from '../components/Loader'
 import { useEffect, useState } from 'react'
-
-
 
 function Home() {
   const [loading, setLoading] = useState(true);
@@ -14,6 +12,7 @@ function Home() {
 
     setTimeout(() => {
       setLoading(false);
+      
     }, 2500);
 
   }, [])

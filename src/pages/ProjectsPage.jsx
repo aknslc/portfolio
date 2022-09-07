@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react'
 // components
-import Header from '../components/header'
-import SocialBar from '../components/socialBar'
-import Projects from '../components/projects'
-import Loader from '../components/loader'
+import Header from '../components/Header'
+import SocialBar from '../components/SocialBar'
+import Projects from '../components/Projects'
+import Loader from '../components/Loader'
 function ProjectsPage() {
   const [loading, setLoading] = useState(true);
 

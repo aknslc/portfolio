@@ -1,10 +1,10 @@
 import { useEffect, useState } from 'react'
 
 // components
-import Header from '../components/header'
-import SocialBar from '../components/socialBar'
-import Contact from '../components/contact'
-import Loader from '../components/loader'
+import Header from '../components/Header'
+import SocialBar from '../components/SocialBar'
+import Contact from '../components/Contact'
+import Loader from '../components/Loader'
 
 function ContactPage() {
   const [loading, setLoading] = useState(true);

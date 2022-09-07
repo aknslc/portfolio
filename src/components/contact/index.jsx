@@ -1,5 +1,5 @@
 import React from 'react'
-import ContactUs from '../form'
+import ContactUs from '../Form'
 import '../../stytles/contact/contact.css'
 import { Canvas } from '@react-three/fiber'
 import { Suspense } from 'react'
@@ -20,7 +20,7 @@ function Contact() {
                 </div>
                 <div className="contact-right-content col-lg-6">
                     <Canvas>
-                        <OrbitControls enableZoom={false} autoRotate={true} autoRotateSpeed={3} />
+                        <OrbitControls enableZoom={false}/>
                         <ambientLight intensity={.5} />
                         <directionalLight position={[-2, 5, 2]} intensity={1} />
                         <Suspense fallback={null}>

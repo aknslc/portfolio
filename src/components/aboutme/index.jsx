@@ -27,7 +27,7 @@ function About() {
                     </div>
                     <div className="about-right-content col-lg-6">
                         <Canvas>
-                            <OrbitControls enableZoom={false} autoRotate={true} autoRotateSpeed={3} />
+                            <OrbitControls enableZoom={false} />
                             <ambientLight intensity={.5} />
                             <directionalLight position={[-2, 5, 2]} intensity={1} />
                             <Suspense fallback={null}>

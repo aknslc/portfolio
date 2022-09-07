@@ -3,7 +3,7 @@ import '../../stytles/projects/projects.css'
 import { projects } from '../../helpers/HelperItems'
 import { AiFillEye } from 'react-icons/ai'
 // modal
-import ProjectModal from '../projectModal/ProjectModal'
+import ProjectModal from '../ProjectModal/ProjectModal'
 function Projects() {
     return (
         <section className='container'>

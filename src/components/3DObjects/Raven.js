@@ -7,7 +7,7 @@ export function Raven(props) {
   const { nodes, materials } = useGLTF('/raven.gltf')
   return (
     <group ref={group} {...props} dispose={null}>
-      <group scale={.8} rotation={[-Math.PI / 2, 0, 2]}>
+      <group scale={.8} rotation={[-Math.PI / 2, 0, 0]}>
         <mesh geometry={nodes.Object_2.geometry} material={materials.initialShadingGroup} />
       </group>
     </group>

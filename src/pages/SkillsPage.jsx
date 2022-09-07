@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react'
 // components
-import Header from '../components/header'
-import SocialBar from '../components/socialBar'
-import Skills from '../components/skills'
-import Loader from '../components/loader'
+import Header from '../components/Header'
+import SocialBar from '../components/SocialBar'
+import Skills from '../components/Skills'
+import Loader from '../components/Loader'
 function SkillsPage() {
   const [loading, setLoading] = useState(true);
 

@@ -25,7 +25,7 @@ function PageContent() {
         </div>
         <div className="right col col-lg-6 col-md-12 col-sm-12">
           <Canvas>
-            <OrbitControls enableZoom={false} autoRotate={true} autoRotateSpeed={3} />
+            <OrbitControls enableZoom={false} />
             <directionalLight position={[-2, 5, 2]} />
             <Suspense fallback={null}>
               <Computer />
