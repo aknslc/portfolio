@@ -21,7 +21,7 @@ function About() {
 
                         <h3>Experience</h3>
                         <p>
-                            I have been never working in a company but I am constantly developing projects for myself. If you want, you can view my <Link className=' links' to='/skills'>skills</Link> and <Link className='links' to='/projects'>projects</Link>
+                            {/* I have been never working in a company but I am constantly developing projects for myself. If you want, you can view my <Link className=' links' to='/skills'>skills</Link> and <Link className='links' to='/projects'>projects</Link> */}
                         </p>
 
                     </div>
