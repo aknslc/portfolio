@@ -11,7 +11,7 @@ function Projects() {
                 <div className="projects-left-content col-lg-12">
                     <span>{'<h1>'}</span>
                     <h1 style={{ letterSpacing: "4px" }}>
-                        <span style={{ color: "#08FDD8" }}>P</span>rocejts
+                        <span style={{ color: "#08FDD8" }}>P</span>rojects
                     </h1>
                     <span>{'</h1>'}</span>
                 </div>
