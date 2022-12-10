@@ -1,6 +1,6 @@
 import React from 'react'
 import '../../stytles/skills/skills.css'
-import { skills } from '../../helpers/HelperItems'
+import { skills } from '../../helpers'
 function Skills() {
     return (
         <section className='container'>

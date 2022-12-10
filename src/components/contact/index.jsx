@@ -1,5 +1,5 @@
 import React from 'react'
-import ContactUs from '../Form'
+import ContactUs from '../Form/index'
 import '../../stytles/contact/contact.css'
 import { Canvas } from '@react-three/fiber'
 import { Suspense } from 'react'

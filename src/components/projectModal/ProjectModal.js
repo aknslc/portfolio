@@ -1,6 +1,6 @@
 import React from 'react'
 import { AiOutlineGithub } from 'react-icons/ai'
-import { projects } from '../../helpers/HelperItems'
+import { projects } from '../../helpers'
 function ProjectModal() {
     return (
         <>

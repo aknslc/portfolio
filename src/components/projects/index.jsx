@@ -1,6 +1,6 @@
 import React from 'react'
 import '../../stytles/projects/projects.css'
-import { projects } from '../../helpers/HelperItems'
+import { projects } from '../../helpers'
 import { AiFillEye } from 'react-icons/ai'
 // modal
 import ProjectModal from '../ProjectModal/ProjectModal'
@@ -15,10 +15,8 @@ function Projects() {
                     </h1>
                     <span>{'</h1>'}</span>
                 </div>
-                <ProjectModal />
                 <div className="projects-right-content col-lg-12 mt-5">
                     <div className="cards row">
-
                         {projects.map((project) => (
 
                             <div key={project.id} className="project col-lg-4 col-md-6 col-sm-12">
@@ -31,6 +29,7 @@ function Projects() {
                         ))}
                     </div>
                 </div>
+                <ProjectModal />
             </div>
         </section>
     )

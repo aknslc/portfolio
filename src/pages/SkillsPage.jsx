@@ -14,7 +14,7 @@ function SkillsPage() {
   }, [])
   return (
     <>
-        {loading ? <Loader /> : (
+      {loading ? <Loader /> : (
         <>
           <Header />
           <SocialBar />

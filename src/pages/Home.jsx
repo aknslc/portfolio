@@ -1,7 +1,7 @@
 // main components
 import Header from '../components/Header'
 import SocialBar from '../components/SocialBar'
-import PageContent from '../components/Content'
+import PageContent from '../components/HomeContent'
 import Loader from '../components/Loader'
 import { useEffect, useState } from 'react'
 

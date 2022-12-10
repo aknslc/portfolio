@@ -13,7 +13,6 @@
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.2.0",
-    "emailjs": "^4.0.1",
     "gltf-pipeline": "^3.0.5",
     "i": "^0.3.7",
     "npm": "^8.17.0",

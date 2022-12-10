@@ -1,6 +1,5 @@
 import { Canvas } from '@react-three/fiber'
 import React, { Suspense } from 'react'
-import { Link } from 'react-router-dom'
 import '../../stytles/about/about.css'
 import { OrbitControls } from '@react-three/drei'
 import { Head } from '../3DObjects/Head'
